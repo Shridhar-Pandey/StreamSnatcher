@@ -1,0 +1,55 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.venv
+
+# Flask specific
+instance/
+*.sqlite3
+*.log
+*.db
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+
+# Virtual environment
+.env
+.venv
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# PyInstaller
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# dotenv
+.env
+
+# Batch files
+*.bat
+
+# Other
+*.log
