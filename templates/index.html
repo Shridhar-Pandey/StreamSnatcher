@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube Video Downloader</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="container">
+    <div class="download">
+        <h1>YouTube Video Downloader</h1>
+        <div class='gif'></div>
+        <br><br>
+        <form action="{{ url_for('download')}}" method="post">
+            <input type="text" name="path" placeholder="Enter the path to save your file" required="required" />
+            <p>Example : C:\Users\your_user_name</p>
+            <br>
+            <input type="text" name="link" placeholder="Paste the link here" required="required" />
+            <br><br>
+            <button type="submit">Download</button>
+        </form>
+        <p class="note">NOTE: "We do not endorse or encourage the downloading of copyrighted content from YouTube. Please ensure that you have the necessary permissions to download and use the content you access. This application is intended solely for educational purposes, specifically to demonstrate the deployment of a Flask application using Amazon Elastic Beanstalk.
+            
+        </p>
+        <br>
+        <a href="https://www.termsfeed.com/terms-conditions/bf88778dc95673a9e81da8795117e256" class="terms-link">T&C</a>
+    </div>
+
+    <div class="footer">
+        <p>Powered by Flask & Amazon Elastic Beanstalk</p>
+    </div>
+</div>
+
+</body>
+</html>
